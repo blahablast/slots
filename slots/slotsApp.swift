@@ -11,7 +11,7 @@ import SwiftUI
 struct slotsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(apple: "", cherry: "", star: "")
         }
     }
 }
